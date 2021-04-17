@@ -1,0 +1,53 @@
+#calculator {
+    width: 600px;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    margin:auto;
+}
+
+#calculator #ClickMe {
+    margin: 10px;
+}
+
+.titledBackground{
+    height: 100vh;
+    background-image: url("calculator.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: url("calculator.jpg") no-repeat center/cover;
+    opacity: 1.0;
+}
+
+#calculator span {
+    font-size: 1.8em;
+    font-weight: 900;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#calculator #formula-input {
+    width: 100%;
+    margin-top: 8px;
+    height: 36px;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    border: 0;
+    text-align: center;
+}
+#calculator #fromula-inpuut:focus{
+    outline-width: 0;
+}
+
+#calculator #calc-history div {
+    height: 40px;
+    line-height: 36px;
+    margin-top: 1px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#calculator #calc-history div.invalid {
+    color: tomato;
+    font-weight: bold;
+}
